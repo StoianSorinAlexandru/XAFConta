@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="Accordion" />
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="True" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Report_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Report" RelativeSize="100">
+              <LayoutGroup Id="Report_col1" RelativeSize="50">
+                <LayoutItem Id="Date" RelativeSize="6.390977443609023" />
+                <LayoutItem Id="StartDate" RelativeSize="4.887218045112782" />
+                <LayoutItem Id="EndDate" RelativeSize="88.7218045112782" />
+              </LayoutGroup>
+              <LayoutGroup Id="Report_col2" RelativeSize="50">
+                <LayoutItem Id="Gestion" RelativeSize="6.390977443609023" />
+                <LayoutItem Id="ReportName" RelativeSize="93.60902255639098" />
+                <LayoutItem Id="ReportNameFormater" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

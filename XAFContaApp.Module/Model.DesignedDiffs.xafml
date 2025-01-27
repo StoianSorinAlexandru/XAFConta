@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="XAFContaApp">
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="DetailedEntry_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="DetailedEntry" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="DetailedEntry_col1" RelativeSize="100" Caption="DetailedEntry_col1" Direction="Vertical" Index="0">
+                <LayoutItem Id="Entry" ViewItem="Entry" Index="0" RelativeSize="7.7272727272727275" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Product" ViewItem="Product" Index="1" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Quantity" ViewItem="Quantity" Index="2" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Value" ViewItem="Value" Index="3" RelativeSize="80.45454545454545" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="DetailedEntry_col2" Caption="DetailedEntry_col2" RelativeSize="48.55595667870036" Direction="Vertical" Removed="True">
+                <LayoutItem Id="DetailedEntryName" Removed="True" />
+                <LayoutItem Id="DetailedEntryNameFormater" Removed="True" />
+                <LayoutItem Id="Value" RelativeSize="49.07063197026022" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DetailedExit_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="DetailedExit" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="DetailedExit_col1" RelativeSize="100">
+                <LayoutItem Id="Exit" RelativeSize="7.7272727272727275" />
+                <LayoutItem Id="Product" ViewItem="Product" Index="1" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Quantity" ViewItem="Quantity" Index="2" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Value" ViewItem="Value" Index="3" RelativeSize="80.45454545454545" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="DetailedExit_col2" RelativeSize="50" Caption="DetailedExit_col2" Removed="True">
+                <LayoutItem Id="DetailedExitName" ViewItem="DetailedExitName" Index="1" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="DetailedExitFormat" ViewItem="DetailedExitFormat" Index="2" RelativeSize="86.36363636363636" Removed="True" />
+                <LayoutItem Id="Value" RelativeSize="100" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Entry_DetailView">
+      <Items>
+        <PropertyEditor Id="DetailedEntry.Product" PropertyName="DetailedEntry.Product" IsNewNode="True" />
+        <PropertyEditor Id="DetailedEntry.Quantity" PropertyName="DetailedEntry.Quantity" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Entry" RelativeSize="100">
+              <LayoutGroup Id="Entry_col1" RelativeSize="41.43884892086331">
+                <LayoutItem Id="Date" RelativeSize="6.451612903225806" />
+                <LayoutItem Id="Partner" RelativeSize="4.659498207885305" />
+                <LayoutItem Id="Gestion" RelativeSize="88.88888888888889" />
+              </LayoutGroup>
+              <LayoutGroup Id="Entry_col2" ShowCaption="False" Index="1" RelativeSize="58.56115107913669" IsNewNode="True" Removed="True">
+                <LayoutItem Id="DetailedEntry.Product" ViewItem="DetailedEntry.Product" Index="0" RelativeSize="6.451612903225806" IsNewNode="True" />
+                <LayoutItem Id="DetailedEntry.Quantity" ViewItem="DetailedEntry.Quantity" Index="1" RelativeSize="4.659498207885305" IsNewNode="True" />
+                <LayoutItem Id="EntryName" ViewItem="EntryName" Index="2" RelativeSize="88.88888888888889" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exit_DetailView">
+      <Items>
+        <PropertyEditor Id="DetailedExit.Product" PropertyName="DetailedExit.Product" IsNewNode="True" />
+        <PropertyEditor Id="DetailedExit.Quantity" PropertyName="DetailedExit.Quantity" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Exit" RelativeSize="100">
+              <LayoutGroup Id="Exit_col1" RelativeSize="49.909909909909906">
+                <LayoutItem Id="Date" RelativeSize="7.7272727272727275" />
+                <LayoutItem Id="Partner" RelativeSize="5.909090909090909" />
+                <LayoutItem Id="Gestion" RelativeSize="86.36363636363636" />
+              </LayoutGroup>
+              <LayoutGroup Id="Exit_col2" RelativeSize="50.090090090090094">
+                <LayoutItem Id="DetailedExit.Product" ViewItem="DetailedExit.Product" Index="0" RelativeSize="7.7272727272727275" IsNewNode="True" />
+                <LayoutItem Id="DetailedExit.Quantity" ViewItem="DetailedExit.Quantity" Index="1" RelativeSize="5.909090909090909" IsNewNode="True" />
+                <LayoutItem Id="DetailedExit" Index="2" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="ExitName" Index="2" RelativeSize="86.36363636363636" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

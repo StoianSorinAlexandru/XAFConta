@@ -1,0 +1,14 @@
+E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.deps.json
+E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.runtimeconfig.json
+E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.dll
+E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.pdb
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.csproj.AssemblyReference.cache
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.GeneratedMSBuildEditorConfig.editorconfig
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.AssemblyInfoInputs.cache
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.AssemblyInfo.cs
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.csproj.CoreCompileInputs.cache
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.dll
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\refint\XAFContaApp.Module.dll
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.pdb
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.genruntimeconfig.cache
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\ref\XAFContaApp.Module.dll
