@@ -26,6 +26,25 @@ namespace XAFContaApp.Module.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ReportDetails", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Details")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("GCRecord")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
+                    b.HasKey("ID");
+
+                    b.ToTable("reportDetails");
+                });
+
             modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.DetailedEntry", b =>
                 {
                     b.Property<Guid>("ID")

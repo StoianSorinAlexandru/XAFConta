@@ -49,6 +49,7 @@ public class XAFContaAppEFCoreDbContext : DbContext {
     public DbSet<DetailedEntry> DetailedEntries { get; set; }
     public DbSet<DetailedExit> DetailedExits { get; set; }
 
+    public DbSet<ReportDetails> reportDetails { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         base.OnModelCreating(modelBuilder);
         modelBuilder.UseDeferredDeletion(this);

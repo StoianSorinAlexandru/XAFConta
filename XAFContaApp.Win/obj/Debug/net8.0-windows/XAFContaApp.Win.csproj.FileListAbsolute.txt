@@ -268,3 +268,4 @@ E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\refint\XAFContaAp
 E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\XAFContaApp.Win.pdb
 E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\XAFContaApp.Win.genruntimeconfig.cache
 E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\ref\XAFContaApp.Win.dll
+E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\XAFContaApp.Win.sourcelink.json

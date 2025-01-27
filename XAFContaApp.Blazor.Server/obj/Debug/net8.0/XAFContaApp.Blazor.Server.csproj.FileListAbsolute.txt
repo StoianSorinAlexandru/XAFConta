@@ -267,3 +267,4 @@ E:\testC#\XAFContaApp\XAFContaApp.Blazor.Server\obj\Debug\net8.0\refint\XAFConta
 E:\testC#\XAFContaApp\XAFContaApp.Blazor.Server\obj\Debug\net8.0\XAFContaApp.Blazor.Server.pdb
 E:\testC#\XAFContaApp\XAFContaApp.Blazor.Server\obj\Debug\net8.0\XAFContaApp.Blazor.Server.genruntimeconfig.cache
 E:\testC#\XAFContaApp\XAFContaApp.Blazor.Server\obj\Debug\net8.0\ref\XAFContaApp.Blazor.Server.dll
+E:\testC#\XAFContaApp\XAFContaApp.Blazor.Server\obj\Debug\net8.0\XAFContaApp.Blazor.Server.sourcelink.json

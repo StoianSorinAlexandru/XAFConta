@@ -98,5 +98,31 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
+    <DetailView Id="Report_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Report" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Report_col1" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True" Removed="True">
+                <LayoutItem Id="Gestion" ViewItem="Gestion" Index="0" RelativeSize="6.390977443609023" IsNewNode="True" />
+                <LayoutItem Id="Date" ViewItem="Date" Index="1" RelativeSize="4.887218045112782" IsNewNode="True" />
+                <LayoutItem Id="StartDate" ViewItem="StartDate" Index="2" RelativeSize="4.887218045112782" IsNewNode="True" />
+                <LayoutItem Id="EndDate" ViewItem="EndDate" Index="3" RelativeSize="83.83458646616542" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Report_col2" RelativeSize="50.17985611510792" Caption="Report_col2" Removed="True">
+                <LayoutItem Id="ReportName" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="Gestion" RelativeSize="5.806451612903226" Removed="True" />
+                <LayoutItem Id="ReportNameFormater" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Report_ListView">
+      <Columns>
+        <ColumnInfo Id="Gestion" Width="20" />
+      </Columns>
+    </ListView>
   </Views>
 </Application>

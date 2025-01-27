@@ -26,5 +26,13 @@ namespace XAFContaApp.Module.BusinessObjects
         {
             get { return ObjectFormatter.Format(ReportNameFormater, this, EmptyEntriesMode.RemoveDelimiterWhenEntryIsEmpty); }
         }
+
+        public override void OnCreated()
+        {
+            base.OnCreated();
+            this.Date = DateTime.Now;
+            this.StartDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            this.EndDate = this.StartDate.AddMonths(1).AddDays(-1);
+        }
     }
 }
