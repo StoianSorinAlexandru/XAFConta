@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="XAFContaApp.Module.BusinessObjects.DetailedEntry">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="DetailedEntryNameFormater" AllowEdit="False" DataSourcePropertyIsNullMode="SelectNothing" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="Entry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Entry">
+              <LayoutGroup Id="Entry_col2">
+                <LayoutItem Id="Price" ViewItem="Price" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DetailedEntry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DetailedEntry">
+              <LayoutGroup Id="DetailedEntry_col2">
+                <LayoutItem Id="DetailedEntryNameFormater" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DetailedExit_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DetailedExit">
+              <LayoutGroup Id="DetailedExit_col2">
+                <LayoutItem Id="DetailedExitFormat" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exit_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Exit">
+              <LayoutGroup Id="Exit_col2">
+                <LayoutItem Id="DetailedExit.Quantity" ViewItem="DetailedExit.Quantity" />
+                <LayoutItem Id="DetailedExit.Product" ViewItem="DetailedExit.Product" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

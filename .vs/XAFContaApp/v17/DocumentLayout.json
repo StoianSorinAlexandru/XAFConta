@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "E:\\testC#\\XAFContaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\controllers\\listreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\controllers\\listreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\reportgestion.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\reportgestion.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\databaseupdate\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\databaseupdate\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\reportgestion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\reportgestion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\businessobjects\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\businessobjects\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\model.designeddiffs.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCD}",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\model.designeddiffs.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\businessobjects\\detailedexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\businessobjects\\detailedexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\xtrareport1.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\xtrareport1.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|e:\\testc#\\xafcontaapp\\xafcontaapp.module\\xtrareport1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CEFF72-C0D2-456E-83DF-3870E8345860}|XAFContaApp.Module\\XAFContaApp.Module.csproj|solutionrelative:xafcontaapp.module\\xtrareport1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 776,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 966,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,38 +51,93 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 519,
-          "SelectedChildIndex": 1,
-          "Children": [
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetailedExit.cs",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\BusinessObjects\\DetailedExit.cs",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\BusinessObjects\\DetailedExit.cs",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\BusinessObjects\\DetailedExit.cs",
+              "RelativeToolTip": "XAFContaApp.Module\\BusinessObjects\\DetailedExit.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:34:03.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\BusinessObjects\\Exit.cs",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\BusinessObjects\\Exit.cs",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\BusinessObjects\\Exit.cs",
+              "RelativeToolTip": "XAFContaApp.Module\\BusinessObjects\\Exit.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:33:58.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.DesignedDiffs.xafml",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\Model.DesignedDiffs.xafml",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\Model.DesignedDiffs.xafml",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\Model.DesignedDiffs.xafml",
+              "RelativeToolTip": "XAFContaApp.Module\\Model.DesignedDiffs.xafml",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR9SURBVDhPrVTLbxtFHP5mH17bazt2nNhNk7QlaYSjSn2IAkIVXFohEBL/QA8gzj3DBfWKCioSUo8gDkgcUIEWJESJRCFt2ibpI2nSlrSO07iOvY7f9WPXszszjNOHVOXaT5qdXWn2m2\u002B\u002B3/cbvFQIIZ6\u002BvTyQp/M2nDgxEXp1PDAK1k2BdydAlBaUwB2o\u002BspKurl55swqf7r0BbxAODYY1o6kkqYY8JKfnty1f9\u002Bkfoi49iEwJyUJm9DMRS788zeW7FuffbW2QgOi\u002BeBqtVvKdJ4flaQSJgEhfgiYHx4cjX9x/LUxtr/9BhkqfEDMdooQHiLSmp4czyWwW3o\u002B3w5eue2Pnm3vEJmzJ1cKC\u002BeLDdfhdiVrM9I4dcwntMAhuO5R3bXf9oOmWB\u002BNib22n\u002ByFrg4RQnwE3TqQW2dYrXt8PSA/XzFqxNTzGjMvaV7w79xC6/qX710pEvH10W8EpQfheSNgblQWyhQKNAQ8wuOUeEmKx0kFdxsUjyIEtZgCO6xyZoARQaiiaDVd9W2wjnYnd53\u002BReqfv54Najyhqj0dYqvynFI0pC2WFkIxOYLy\u002BB5kyCbs0fsgQyXoYQZV1QHec0ta0QV1SqRYT6vT6iepvtOKAlWRD0/61HIBq6vjnhjBon4Yt81jSJtHUfKNg\u002BqGrCKHIqgstgdFIaBNoLrmqrkbjpqZaXnk6vEUC/mAaFglTNWQpSaW9ElkRt9FbedboJEREFnD3lB5BbpvHv7IFMI7ZqDpdRSXHWRnXWyusAbx1Dky\u002B9G\u002BtspcQ\u002BpW1n3DmNv5PkqHPwZCUanGAJgmO2ArEZKVyfRQCJaF2/lTxvN7FBYs1HNSLdErfZHYlJyNMuPCZZyjyxXUqIpyrYNum4JwASn6yZDchHhoFgrI3VjGo2sZNC0XtCOtZFx6SuhgLJFT/PHEr4oReCjDYSvcheI0YZcttAtZ2NWibJS2VOVJr0qopm/CWvgHpbuz6FTy8GwXXG6qa0YlGokvDA0MX1LfnNyT7/NrQV144RbXQnkyaBSCo3JxC9yjve3BXVuSLcJauoxq5o48bgnmgC2McJFxG5bfiM1GpDBR1S6o525miu8cSC0ORU3ucJLYYH2D\u002BWhK7UWIu5Q49TJq6/eQm5\u002BSivNbx9P8Cjfjtuc3q7UQ\u002Bs8bAzu\u002BrYCdP3fqgqP2vJ7LWM7oYCwzNjF514qMt9dI8oCQ/8koESFV9oicWqGXUgiZPV1X63t2DVzbNWyeXr64/vP8byv3ctc3XLfjYouw6bjCajr2rWylvGw1rP7UERlwDMgR4p6ruO06Oo2iJGPw6VohEY9NT\u002Bwe\u002BW72wszMg4VHG49LbadH1sMWYQ/WY1ukrUq3VK1WDMNvxeMJ7gsEA13qhrutmuE0NpkZ8N\u002BP9oemDEP8UsmsXpz/d77arLV6/fAczwmfwaOOV/hvLjc8svthJJ70hKJGnXY9CKeRD6rsrO7zfiyX16cv/37OcWl32w29jfAZ1pauVsP98ftjkwdzOqPaQFD5YenyHz/dnp5asdLpbURPAPwPRwFkXZLSwpoAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-01-29T14:28:52.673Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Updater.cs",
-              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\DatabaseUpdate\\Updater.cs",
-              "RelativeDocumentMoniker": "XAFContaApp.Module\\DatabaseUpdate\\Updater.cs",
-              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\DatabaseUpdate\\Updater.cs",
-              "RelativeToolTip": "XAFContaApp.Module\\DatabaseUpdate\\Updater.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEoAAAAaAAAAAAAAAA==",
+              "Title": "ReportGestion.Designer.cs",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\ReportGestion.Designer.cs",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\ReportGestion.Designer.cs",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\ReportGestion.Designer.cs",
+              "RelativeToolTip": "XAFContaApp.Module\\ReportGestion.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T15:36:53.275Z",
+              "WhenOpened": "2025-01-29T14:20:29.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListReportController.cs",
-              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\Controllers\\ListReportController.cs",
-              "RelativeDocumentMoniker": "XAFContaApp.Module\\Controllers\\ListReportController.cs",
-              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\Controllers\\ListReportController.cs",
-              "RelativeToolTip": "XAFContaApp.Module\\Controllers\\ListReportController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwFkAAAANAAAAAAAAAA==",
+              "Title": "ReportGestion.cs [Design]",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\ReportGestion.cs",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\ReportGestion.cs",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\ReportGestion.cs [Design]",
+              "RelativeToolTip": "XAFContaApp.Module\\ReportGestion.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:59:42.126Z",
+              "WhenOpened": "2025-01-29T14:20:25.816Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XtraReport1.Designer.cs",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\XtraReport1.Designer.cs",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\XtraReport1.Designer.cs",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\XtraReport1.Designer.cs",
+              "RelativeToolTip": "XAFContaApp.Module\\XtraReport1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:20:06.177Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "XtraReport1.cs [Design]",
+              "DocumentMoniker": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\XtraReport1.cs",
+              "RelativeDocumentMoniker": "XAFContaApp.Module\\XtraReport1.cs",
+              "ToolTip": "E:\\testC#\\XAFContaApp\\XAFContaApp.Module\\XtraReport1.cs [Design]",
+              "RelativeToolTip": "XAFContaApp.Module\\XtraReport1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:19:58.904Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -6,13 +6,16 @@ using DevExpress.ExpressApp.EF;
 using DevExpress.Persistent.BaseImpl.EF;
 using Microsoft.Extensions.DependencyInjection;
 using XAFContaApp.Module.BusinessObjects;
+using DevExpress.XtraReports.Web.ReportDesigner.Native.CustomControls.PropertyInfoBuilders;
 
 namespace XAFContaApp.Module.DatabaseUpdate;
 
 // For more typical usage scenarios, be sure to check out https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Updating.ModuleUpdater
-public class Updater : ModuleUpdater {
+public class Updater : ModuleUpdater
+{
     public Updater(IObjectSpace objectSpace, Version currentDBVersion) :
-        base(objectSpace, currentDBVersion) {
+        base(objectSpace, currentDBVersion)
+    {
     }
     public override void UpdateDatabaseAfterUpdateSchema()
     {
@@ -93,7 +96,8 @@ public class Updater : ModuleUpdater {
 
         ObjectSpace.CommitChanges(); //Uncomment this line to persist created object(s).
     }
-    public override void UpdateDatabaseBeforeUpdateSchema() {
+    public override void UpdateDatabaseBeforeUpdateSchema()
+    {
         base.UpdateDatabaseBeforeUpdateSchema();
     }
 }

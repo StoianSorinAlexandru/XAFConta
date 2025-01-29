@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="DetailedEntry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="DetailedEntry" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="DetailedEntry_col1" RelativeSize="100" Caption="DetailedEntry_col1" Direction="Vertical" Index="0">
+                <LayoutItem Id="Entry" ViewItem="Entry" Index="0" RelativeSize="7.7272727272727275" Removed="True" />
+                <LayoutItem Id="Product" ViewItem="Product" Index="1" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="Quantity" ViewItem="Quantity" Index="2" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="Value" ViewItem="Value" Index="3" RelativeSize="80.45454545454545" />
+              </LayoutGroup>
+              <LayoutGroup Id="DetailedEntry_col2" Caption="DetailedEntry_col2" RelativeSize="48.55595667870036" Direction="Vertical" Removed="True">
+                <LayoutItem Id="DetailedEntryName" Removed="True" />
+                <LayoutItem Id="DetailedEntryNameFormater" Removed="True" />
+                <LayoutItem Id="Value" RelativeSize="49.07063197026022" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DetailedExit_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="DetailedExit" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="DetailedExit_col1" RelativeSize="100">
+                <LayoutItem Id="Exit" RelativeSize="7.7272727272727275" />
+                <LayoutItem Id="Product" ViewItem="Product" Index="1" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="Quantity" ViewItem="Quantity" Index="2" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="Value" ViewItem="Value" Index="3" RelativeSize="80.45454545454545" />
+              </LayoutGroup>
+              <LayoutGroup Id="DetailedExit_col2" RelativeSize="50" Caption="DetailedExit_col2" Removed="True">
+                <LayoutItem Id="DetailedExitName" ViewItem="DetailedExitName" Index="1" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="DetailedExitFormat" ViewItem="DetailedExitFormat" Index="2" RelativeSize="86.36363636363636" Removed="True" />
+                <LayoutItem Id="Value" RelativeSize="100" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Report_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Report" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Report_col1" ShowCaption="False" Index="0" RelativeSize="100" Removed="True">
+                <LayoutItem Id="Gestion" ViewItem="Gestion" Index="0" RelativeSize="6.390977443609023" />
+                <LayoutItem Id="Date" ViewItem="Date" Index="1" RelativeSize="4.887218045112782" />
+                <LayoutItem Id="StartDate" ViewItem="StartDate" Index="2" RelativeSize="4.887218045112782" />
+                <LayoutItem Id="EndDate" ViewItem="EndDate" Index="3" RelativeSize="83.83458646616542" />
+              </LayoutGroup>
+              <LayoutGroup Id="Report_col2" RelativeSize="50.17985611510792" Caption="Report_col2" Removed="True">
+                <LayoutItem Id="ReportName" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="Gestion" RelativeSize="5.806451612903226" Removed="True" />
+                <LayoutItem Id="ReportNameFormater" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Report_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="ReportNameFormater" Width="163" Index="-1" />
+        <ColumnInfo Id="ReportName" Width="235" />
+        <ColumnInfo Id="Date" Width="109" />
+        <ColumnInfo Id="StartDate" Width="126" />
+        <ColumnInfo Id="EndDate" Width="120" />
+        <ColumnInfo Id="Gestion" Width="116" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Entry_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="DetailedEntry.Quantity" PropertyName="DetailedEntry.Quantity" />
+        <PropertyEditor Id="DetailedEntry.Product" PropertyName="DetailedEntry.Product" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Entry">
+              <LayoutGroup Id="Entry_col2">
+                <LayoutItem Id="DetailedEntry.Quantity" ViewItem="DetailedEntry.Quantity" />
+                <LayoutItem Id="DetailedEntry.Product" ViewItem="DetailedEntry.Product" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exit_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="DetailedExit.Quantity" PropertyName="DetailedExit.Quantity" />
+        <PropertyEditor Id="DetailedExit.Product" PropertyName="DetailedExit.Product" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Exit">
+              <LayoutGroup Id="Exit_col2">
+                <LayoutItem Id="DetailedExit" Index="2" RelativeSize="5.909090909090909" Removed="True" />
+                <LayoutItem Id="DetailedExit.Quantity" ViewItem="DetailedExit.Quantity" />
+                <LayoutItem Id="DetailedExit.Product" ViewItem="DetailedExit.Product" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

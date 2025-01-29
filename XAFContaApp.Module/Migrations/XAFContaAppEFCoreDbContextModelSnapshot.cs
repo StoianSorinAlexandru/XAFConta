@@ -26,13 +26,19 @@ namespace XAFContaApp.Module.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ReportDetails", b =>
+            modelBuilder.Entity("DevExpress.Persistent.BaseImpl.EF.ReportDataV2", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Details")
+                    b.Property<byte[]>("Content")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("DataTypeName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DisplayName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("GCRecord")
@@ -40,9 +46,18 @@ namespace XAFContaApp.Module.Migrations
                         .HasColumnType("int")
                         .HasDefaultValue(0);
 
+                    b.Property<bool>("IsInplaceReport")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ParametersObjectTypeName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PredefinedReportTypeName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("ID");
 
-                    b.ToTable("reportDetails");
+                    b.ToTable("ReportData");
                 });
 
             modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.DetailedEntry", b =>
@@ -67,9 +82,7 @@ namespace XAFContaApp.Module.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("Entry.Id")
-                        .IsUnique()
-                        .HasFilter("[Entry.Id] IS NOT NULL");
+                    b.HasIndex("Entry.Id");
 
                     b.HasIndex("ProductID");
 
@@ -98,9 +111,7 @@ namespace XAFContaApp.Module.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("Exit.Id")
-                        .IsUnique()
-                        .HasFilter("[Exit.Id] IS NOT NULL");
+                    b.HasIndex("Exit.Id");
 
                     b.HasIndex("ProductID");
 
@@ -123,6 +134,9 @@ namespace XAFContaApp.Module.Migrations
 
                     b.Property<Guid?>("GestionID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Nr")
+                        .HasColumnType("int");
 
                     b.Property<Guid?>("PartnerID")
                         .HasColumnType("uniqueidentifier");
@@ -152,6 +166,9 @@ namespace XAFContaApp.Module.Migrations
 
                     b.Property<Guid?>("GestionID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Nr")
+                        .HasColumnType("int");
 
                     b.Property<Guid?>("PartnerID")
                         .HasColumnType("uniqueidentifier");
@@ -237,41 +254,12 @@ namespace XAFContaApp.Module.Migrations
                     b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.Report", b =>
-                {
-                    b.Property<Guid>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("GCRecord")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(0);
-
-                    b.Property<Guid?>("GestionID")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("GestionID");
-
-                    b.ToTable("Reports");
-                });
-
             modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.DetailedEntry", b =>
                 {
                     b.HasOne("XAFContaApp.Module.BusinessObjects.Entry", "Entry")
-                        .WithOne("DetailedEntry")
-                        .HasForeignKey("XAFContaApp.Module.BusinessObjects.DetailedEntry", "Entry.Id");
+                        .WithMany("DetailedEntryList")
+                        .HasForeignKey("Entry.Id")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("XAFContaApp.Module.BusinessObjects.Product", "Product")
                         .WithMany()
@@ -285,8 +273,9 @@ namespace XAFContaApp.Module.Migrations
             modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.DetailedExit", b =>
                 {
                     b.HasOne("XAFContaApp.Module.BusinessObjects.Exit", "Exit")
-                        .WithOne("DetailedExit")
-                        .HasForeignKey("XAFContaApp.Module.BusinessObjects.DetailedExit", "Exit.Id");
+                        .WithMany("DetailedExitList")
+                        .HasForeignKey("Exit.Id")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("XAFContaApp.Module.BusinessObjects.Product", "Product")
                         .WithMany()
@@ -327,23 +316,14 @@ namespace XAFContaApp.Module.Migrations
                     b.Navigation("Partner");
                 });
 
-            modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.Report", b =>
-                {
-                    b.HasOne("XAFContaApp.Module.BusinessObjects.Gestion", "Gestion")
-                        .WithMany()
-                        .HasForeignKey("GestionID");
-
-                    b.Navigation("Gestion");
-                });
-
             modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.Entry", b =>
                 {
-                    b.Navigation("DetailedEntry");
+                    b.Navigation("DetailedEntryList");
                 });
 
             modelBuilder.Entity("XAFContaApp.Module.BusinessObjects.Exit", b =>
                 {
-                    b.Navigation("DetailedExit");
+                    b.Navigation("DetailedExitList");
                 });
 #pragma warning restore 612, 618
         }

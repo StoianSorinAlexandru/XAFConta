@@ -13,7 +13,7 @@ namespace XAFContaApp.Module.BusinessObjects;
 public class XAFContaAppContextInitializer : DbContextTypesInfoInitializerBase {
     protected override DbContext CreateDbContext() {
         var optionsBuilder = new DbContextOptionsBuilder<XAFContaAppEFCoreDbContext>()
-            .UseSqlServer(";")//.UseSqlite(";") wrong for a solution with SqLite, see https://isc.devexpress.com/internal/ticket/details/t1240173
+            .UseSqlServer("Data Source=DESKTOP-VRT8UFH;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False")//.UseSqlite(";") wrong for a solution with SqLite, see https://isc.devexpress.com/internal/ticket/details/t1240173
             .UseChangeTrackingProxies()
             .UseObjectSpaceLinkProxies();
         return new XAFContaAppEFCoreDbContext(optionsBuilder.Options);
@@ -29,7 +29,7 @@ public class XAFContaAppDesignTimeDbContextFactory : IDesignTimeDbContextFactory
         //optionsBuilder.UseObjectSpaceLinkProxies();
         //return new XAFContaAppEFCoreDbContext(optionsBuilder.Options);
         var optionsBuilder = new DbContextOptionsBuilder<XAFContaAppEFCoreDbContext>();
-        optionsBuilder.UseSqlServer("Integrated Security=SSPI;Data Source=(localdb)\\mssqllocaldb;Initial Catalog=XAFContaApp");
+        optionsBuilder.UseSqlServer("Data Source=DESKTOP-VRT8UFH;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
         
         optionsBuilder.UseChangeTrackingProxies();
         optionsBuilder.UseObjectSpaceLinkProxies();
@@ -41,15 +41,13 @@ public class XAFContaAppEFCoreDbContext : DbContext {
     public XAFContaAppEFCoreDbContext(DbContextOptions<XAFContaAppEFCoreDbContext> options) : base(options) {
     }
 
-    public DbSet<Report> Reports { get; set; }
     public DbSet<Gestion> Gestions { get; set; }
     public DbSet<Entry> Entries { get; set; }
     public DbSet<Exit> Exits { get; set; }
     public DbSet<Partner> Partners { get; set; }
     public DbSet<DetailedEntry> DetailedEntries { get; set; }
     public DbSet<DetailedExit> DetailedExits { get; set; }
-
-    public DbSet<ReportDetails> reportDetails { get; set; }
+    public DbSet<ReportDataV2> ReportData { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         base.OnModelCreating(modelBuilder);
         modelBuilder.UseDeferredDeletion(this);

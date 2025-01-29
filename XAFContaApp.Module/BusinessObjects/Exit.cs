@@ -1,10 +1,13 @@
 ﻿using Azure.Core;
+using DevExpress.Blazor.Legacy.Internal;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Filtering;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl.EF;
+using DevExpress.Persistent.Validation;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -16,12 +19,20 @@ namespace XAFContaApp.Module.BusinessObjects
     [NavigationItem("Accounting")]
     [ObjectCaptionFormat("{0:ExitName}")]
     [DefaultProperty(nameof(ExitName))]
+    [DefaultClassOptions]
+
     public class Exit : BaseObject
     {
+
+        private static int _nextAutoincrementedValue = 0;
+
+        public virtual int Nr { get; set; }
+
         public virtual DateTime Date { get; set; }
         public virtual Partner Partner { get; set; }
         public virtual Gestion Gestion { get; set; }
-        public virtual DetailedExit DetailedExit{ get; set; }
+        [RuleRequiredField("Rule RequiredField for Exit.DetailEntryList", DefaultContexts.Save)]
+        public virtual IList<DetailedExit> DetailedExitList { get; set; } = new ObservableCollection<DetailedExit>();
         public static String ExitNameFormat = "Exit: {Date} {Partner.Name}";
         [SearchMemberOptions(SearchMemberMode.Exclude)]
 
@@ -33,14 +44,8 @@ namespace XAFContaApp.Module.BusinessObjects
         public override void OnCreated()
         {
             base.OnCreated();
-
-            if (DetailedExit == null)
-            {
-                DetailedExit = ObjectSpace.CreateObject<DetailedExit>();
-                DetailedExit.Exit = this;
-                DetailedExit.Quantity = 1;
-                DetailedExit.Product = ObjectSpace.GetObjects<Product>().FirstOrDefault();
-            }
+            Nr = _nextAutoincrementedValue;
+            ++_nextAutoincrementedValue;
         }
 
         public override void OnSaving()
@@ -50,7 +55,8 @@ namespace XAFContaApp.Module.BusinessObjects
             if (mostRecentExit != null && Date < mostRecentExit.Date)
             {
                 throw new UserFriendlyException("The date of the exit cannot be earlier than the date of the most recent exit.");
-            }
+            }   
         }
+
     }
 }

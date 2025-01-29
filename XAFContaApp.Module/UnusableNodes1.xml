@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Entry_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Entry">
+              <LayoutGroup Id="Entry_col2">
+                <LayoutItem Id="Price" ViewItem="Price" />
+              </LayoutGroup>
+              <LayoutGroup Id="Entry_col1">
+                <LayoutItem Id="Gestion" RelativeSize="2.2667829119442024" />
+                <LayoutItem Id="Product" RelativeSize="92.50217959895379" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exit_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Exit">
+              <LayoutGroup Id="Exit_col1">
+                <LayoutItem Id="Gestion" RelativeSize="86.36363636363636" />
+              </LayoutGroup>
+              <LayoutGroup Id="Exit_col2">
+                <LayoutItem Id="DetailedExit.Quantity" ViewItem="DetailedExit.Quantity" />
+                <LayoutItem Id="DetailedExit.Product" ViewItem="DetailedExit.Product" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

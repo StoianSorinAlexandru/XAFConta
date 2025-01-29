@@ -12,9 +12,11 @@ using System.Threading.Tasks;
 namespace XAFContaApp.Module.BusinessObjects
 {
     //[NavigationItem("Accounting")]
-
+    [DefaultClassOptions]
     public class DetailedEntry : BaseObject
     {
+
+
         [ForeignKey("Entry.Id")]
         public virtual Entry Entry { get; set; }
         public virtual Product Product { get; set; }
@@ -26,7 +28,7 @@ namespace XAFContaApp.Module.BusinessObjects
             get { return EvaluateAlias<decimal>(); }
         }
 
-        public String DetailedEntryNameFormater = "Details: {Quantity} {Product.Name}";
+        public static String DetailedEntryNameFormater = "Details: {Quantity} {Product.Name}";
         [SearchMemberOptions(SearchMemberMode.Exclude)]
 
         public String DetailedEntryName

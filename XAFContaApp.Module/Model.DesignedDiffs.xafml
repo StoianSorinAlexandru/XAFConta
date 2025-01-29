@@ -11,17 +11,15 @@
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
           <LayoutGroup Id="SimpleEditors" RelativeSize="100">
-            <LayoutGroup Id="DetailedEntry" RelativeSize="100" Direction="Vertical">
-              <LayoutGroup Id="DetailedEntry_col1" RelativeSize="100" Caption="DetailedEntry_col1" Direction="Vertical" Index="0">
-                <LayoutItem Id="Entry" ViewItem="Entry" Index="0" RelativeSize="7.7272727272727275" IsNewNode="True" Removed="True" />
-                <LayoutItem Id="Product" ViewItem="Product" Index="1" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
-                <LayoutItem Id="Quantity" ViewItem="Quantity" Index="2" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
-                <LayoutItem Id="Value" ViewItem="Value" Index="3" RelativeSize="80.45454545454545" IsNewNode="True" />
+            <LayoutGroup Id="DetailedEntry" RelativeSize="100">
+              <LayoutGroup Id="DetailedEntry_col1" RelativeSize="49.959316517493896">
+                <LayoutItem Id="Entry" RelativeSize="2.5" />
+                <LayoutItem Id="Product" RelativeSize="1.8055555555555556" />
+                <LayoutItem Id="Quantity" RelativeSize="95.69444444444444" />
               </LayoutGroup>
-              <LayoutGroup Id="DetailedEntry_col2" Caption="DetailedEntry_col2" RelativeSize="48.55595667870036" Direction="Vertical" Removed="True">
-                <LayoutItem Id="DetailedEntryName" Removed="True" />
-                <LayoutItem Id="DetailedEntryNameFormater" Removed="True" />
-                <LayoutItem Id="Value" RelativeSize="49.07063197026022" Removed="True" />
+              <LayoutGroup Id="DetailedEntry_col2" RelativeSize="50.040683482506104">
+                <LayoutItem Id="Value" RelativeSize="2.5" />
+                <LayoutItem Id="DetailedEntryName" RelativeSize="97.5" />
               </LayoutGroup>
             </LayoutGroup>
           </LayoutGroup>
@@ -32,17 +30,15 @@
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
           <LayoutGroup Id="SimpleEditors" RelativeSize="100">
-            <LayoutGroup Id="DetailedExit" RelativeSize="100" Direction="Vertical">
-              <LayoutGroup Id="DetailedExit_col1" RelativeSize="100">
-                <LayoutItem Id="Exit" RelativeSize="7.7272727272727275" />
-                <LayoutItem Id="Product" ViewItem="Product" Index="1" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
-                <LayoutItem Id="Quantity" ViewItem="Quantity" Index="2" RelativeSize="5.909090909090909" IsNewNode="True" Removed="True" />
-                <LayoutItem Id="Value" ViewItem="Value" Index="3" RelativeSize="80.45454545454545" IsNewNode="True" />
+            <LayoutGroup Id="DetailedExit" RelativeSize="100">
+              <LayoutGroup Id="DetailedExit_col1" RelativeSize="49.959316517493896">
+                <LayoutItem Id="Exit" RelativeSize="2.5" />
+                <LayoutItem Id="Product" RelativeSize="1.8055555555555556" />
+                <LayoutItem Id="Quantity" RelativeSize="95.69444444444444" />
               </LayoutGroup>
-              <LayoutGroup Id="DetailedExit_col2" RelativeSize="50" Caption="DetailedExit_col2" Removed="True">
-                <LayoutItem Id="DetailedExitName" ViewItem="DetailedExitName" Index="1" RelativeSize="5.909090909090909" Removed="True" />
-                <LayoutItem Id="DetailedExitFormat" ViewItem="DetailedExitFormat" Index="2" RelativeSize="86.36363636363636" Removed="True" />
-                <LayoutItem Id="Value" RelativeSize="100" Removed="True" />
+              <LayoutGroup Id="DetailedExit_col2" RelativeSize="50.040683482506104">
+                <LayoutItem Id="Value" RelativeSize="2.5" />
+                <LayoutItem Id="DetailedExitName" RelativeSize="97.5" />
               </LayoutGroup>
             </LayoutGroup>
           </LayoutGroup>
@@ -50,34 +46,33 @@
       </Layout>
     </DetailView>
     <DetailView Id="Entry_DetailView">
-      <Items>
-        <PropertyEditor Id="DetailedEntry.Product" PropertyName="DetailedEntry.Product" IsNewNode="True" />
-        <PropertyEditor Id="DetailedEntry.Quantity" PropertyName="DetailedEntry.Quantity" IsNewNode="True" />
-      </Items>
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
-          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="9.700996677740864">
             <LayoutGroup Id="Entry" RelativeSize="100">
-              <LayoutGroup Id="Entry_col1" RelativeSize="41.43884892086331">
-                <LayoutItem Id="Date" RelativeSize="6.451612903225806" />
-                <LayoutItem Id="Partner" RelativeSize="4.659498207885305" />
-                <LayoutItem Id="Gestion" RelativeSize="88.88888888888889" />
+              <LayoutGroup Id="Entry_col1" RelativeSize="41.15920763022744">
+                <LayoutItem Id="Nr" RelativeSize="36.734693877551024" />
+                <LayoutItem Id="Date" RelativeSize="26.53061224489796" />
+                <LayoutItem Id="Partner" RelativeSize="36.734693877551024" />
               </LayoutGroup>
-              <LayoutGroup Id="Entry_col2" ShowCaption="False" Index="1" RelativeSize="58.56115107913669" IsNewNode="True" Removed="True">
-                <LayoutItem Id="DetailedEntry.Product" ViewItem="DetailedEntry.Product" Index="0" RelativeSize="6.451612903225806" IsNewNode="True" />
-                <LayoutItem Id="DetailedEntry.Quantity" ViewItem="DetailedEntry.Quantity" Index="1" RelativeSize="4.659498207885305" IsNewNode="True" />
-                <LayoutItem Id="EntryName" ViewItem="EntryName" Index="2" RelativeSize="88.88888888888889" IsNewNode="True" />
+              <LayoutGroup Id="Entry_col2" ShowCaption="False" Index="1" RelativeSize="58.84079236977256" Direction="Vertical" Caption="Entry_col2" IsNewNode="True" Removed="True">
+                <LayoutItem Id="Gestion" ViewItem="Gestion" Index="0" RelativeSize="36.734693877551024" IsNewNode="True" />
+                <LayoutItem Id="EntryName" ViewItem="EntryName" Index="1" RelativeSize="63.265306122448976" IsNewNode="True" />
               </LayoutGroup>
             </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="DetailedEntryList_Group" Direction="Vertical" RelativeSize="90.29900332225914">
+            <LayoutItem Id="DetailedEntryList" RelativeSize="100" />
           </LayoutGroup>
         </LayoutGroup>
       </Layout>
     </DetailView>
+    <ListView Id="Entry_ListView">
+      <Columns>
+        <ColumnInfo Id="Nr" AllowEdit="False" />
+      </Columns>
+    </ListView>
     <DetailView Id="Exit_DetailView">
-      <Items>
-        <PropertyEditor Id="DetailedExit.Product" PropertyName="DetailedExit.Product" IsNewNode="True" />
-        <PropertyEditor Id="DetailedExit.Quantity" PropertyName="DetailedExit.Quantity" IsNewNode="True" />
-      </Items>
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
           <LayoutGroup Id="SimpleEditors" RelativeSize="100">
@@ -85,12 +80,10 @@
               <LayoutGroup Id="Exit_col1" RelativeSize="49.909909909909906">
                 <LayoutItem Id="Date" RelativeSize="7.7272727272727275" />
                 <LayoutItem Id="Partner" RelativeSize="5.909090909090909" />
-                <LayoutItem Id="Gestion" RelativeSize="86.36363636363636" />
               </LayoutGroup>
               <LayoutGroup Id="Exit_col2" RelativeSize="50.090090090090094">
                 <LayoutItem Id="DetailedExit.Product" ViewItem="DetailedExit.Product" Index="0" RelativeSize="7.7272727272727275" IsNewNode="True" />
                 <LayoutItem Id="DetailedExit.Quantity" ViewItem="DetailedExit.Quantity" Index="1" RelativeSize="5.909090909090909" IsNewNode="True" />
-                <LayoutItem Id="DetailedExit" Index="2" RelativeSize="5.909090909090909" Removed="True" />
                 <LayoutItem Id="ExitName" Index="2" RelativeSize="86.36363636363636" />
               </LayoutGroup>
             </LayoutGroup>
@@ -98,30 +91,9 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
-    <DetailView Id="Report_DetailView">
-      <Layout>
-        <LayoutGroup Id="Main" RelativeSize="100">
-          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
-            <LayoutGroup Id="Report" RelativeSize="100" Direction="Vertical">
-              <LayoutGroup Id="Report_col1" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True" Removed="True">
-                <LayoutItem Id="Gestion" ViewItem="Gestion" Index="0" RelativeSize="6.390977443609023" IsNewNode="True" />
-                <LayoutItem Id="Date" ViewItem="Date" Index="1" RelativeSize="4.887218045112782" IsNewNode="True" />
-                <LayoutItem Id="StartDate" ViewItem="StartDate" Index="2" RelativeSize="4.887218045112782" IsNewNode="True" />
-                <LayoutItem Id="EndDate" ViewItem="EndDate" Index="3" RelativeSize="83.83458646616542" IsNewNode="True" />
-              </LayoutGroup>
-              <LayoutGroup Id="Report_col2" RelativeSize="50.17985611510792" Caption="Report_col2" Removed="True">
-                <LayoutItem Id="ReportName" RelativeSize="100" Index="0" Removed="True" />
-                <LayoutItem Id="Gestion" RelativeSize="5.806451612903226" Removed="True" />
-                <LayoutItem Id="ReportNameFormater" Removed="True" />
-              </LayoutGroup>
-            </LayoutGroup>
-          </LayoutGroup>
-        </LayoutGroup>
-      </Layout>
-    </DetailView>
-    <ListView Id="Report_ListView">
+    <ListView Id="Exit_ListView">
       <Columns>
-        <ColumnInfo Id="Gestion" Width="20" />
+        <ColumnInfo Id="Nr" AllowEdit="False" />
       </Columns>
     </ListView>
   </Views>

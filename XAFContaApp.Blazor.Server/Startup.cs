@@ -2,6 +2,7 @@
 using DevExpress.ExpressApp.Blazor.ApplicationBuilder;
 using DevExpress.ExpressApp.Blazor.Services;
 using DevExpress.Persistent.Base;
+using DevExpress.XtraRichEdit.Import;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Components.Server.Circuits;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,12 @@ public class Startup {
             builder.Modules
                 .AddValidation(options => {
                     options.AllowValidationDetailsAccess = false;
+                })
+                .AddReports(options =>
+                {
+                    options.EnableInplaceReports = true;
+                    options.ReportDataType = typeof(DevExpress.Persistent.BaseImpl.EF.ReportDataV2);
+                    options.ReportStoreMode = DevExpress.ExpressApp.ReportsV2.ReportStoreModes.XML;
                 })
                 .Add<XAFContaApp.Module.XAFContaAppModule>()
                 .Add<XAFContaAppBlazorModule>();
