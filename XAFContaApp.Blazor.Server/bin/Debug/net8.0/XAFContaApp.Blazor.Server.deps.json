@@ -2380,6 +2380,7 @@
           "DevExpress.ExpressApp": "24.2.3",
           "DevExpress.ExpressApp.CodeAnalysis": "24.2.3",
           "DevExpress.ExpressApp.EFCore": "24.2.3",
+          "DevExpress.ExpressApp.ReportsV2": "24.2.3",
           "DevExpress.ExpressApp.ReportsV2.Blazor": "24.2.3",
           "DevExpress.ExpressApp.Validation": "24.2.3",
           "DevExpress.Persistent.Base": "24.2.3",
@@ -2390,6 +2391,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "Microsoft.Extensions.Configuration": "9.0.1",
           "Microsoft.Extensions.Configuration.Json": "9.0.1",
+          "System.IO.Pipelines": "9.0.1",
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
         },
         "runtime": {

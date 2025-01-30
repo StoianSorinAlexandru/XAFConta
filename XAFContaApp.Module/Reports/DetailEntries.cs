@@ -4,11 +4,11 @@ using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
 
-namespace XAFContaApp.Module
+namespace XAFContaApp.Module.Reports
 {
-    public partial class ReportGestion : DevExpress.XtraReports.UI.XtraReport
+    public partial class DetailEntries : DevExpress.XtraReports.UI.XtraReport
     {
-        public ReportGestion()
+        public DetailEntries()
         {
             InitializeComponent();
         }

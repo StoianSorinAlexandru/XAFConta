@@ -2,13 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="EntriesReport.cs">
+    <Compile Update="Reports\DetailEntries.cs">
       <SubType>XtraReport</SubType>
     </Compile>
-    <Compile Update="ReportGestion.cs">
+    <Compile Update="Reports\Entries.cs">
       <SubType>XtraReport</SubType>
     </Compile>
-    <Compile Update="XtraReport1.cs">
+    <Compile Update="Reports\EntriesReportTotal.cs">
+      <SubType>XtraReport</SubType>
+    </Compile>
+    <Compile Update="Reports\Test.cs">
+      <SubType>XtraReport</SubType>
+    </Compile>
+    <Compile Update="Reports\Test2.cs">
       <SubType>XtraReport</SubType>
     </Compile>
   </ItemGroup>

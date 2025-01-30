@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XAFContaApp.Module")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3df1664dc6b9b76b40003c9a403f509b291e8d6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5d062e40960e0ab053bcdffd38bc1422783d426")]
 [assembly: System.Reflection.AssemblyProductAttribute("XAFContaApp.Module")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XAFContaApp.Module")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]

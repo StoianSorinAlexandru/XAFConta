@@ -158,6 +158,10 @@
               "target": "Package",
               "version": "[24.2.3, )"
             },
+            "DevExpress.ExpressApp.ReportsV2": {
+              "target": "Package",
+              "version": "[24.2.3, )"
+            },
             "DevExpress.ExpressApp.ReportsV2.Blazor": {
               "target": "Package",
               "version": "[24.2.3, )"
@@ -201,6 +205,10 @@
               "version": "[9.0.1, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.IO.Pipelines": {
               "target": "Package",
               "version": "[9.0.1, )"
             },

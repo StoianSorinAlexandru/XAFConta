@@ -18,6 +18,7 @@
     <PackageReference Include="DevExpress.ExpressApp" Version="24.2.3" />
     <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.3" />
     <PackageReference Include="DevExpress.ExpressApp.EFCore" Version="24.2.3" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="24.2.3" />
     <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Blazor" Version="24.2.3" />
     <PackageReference Include="DevExpress.ExpressApp.Validation" Version="24.2.3" />
     <PackageReference Include="DevExpress.Persistent.Base" Version="24.2.3" />
@@ -33,6 +34,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+    <PackageReference Include="System.IO.Pipelines" Version="9.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.json">
