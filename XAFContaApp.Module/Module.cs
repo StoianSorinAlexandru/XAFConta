@@ -23,13 +23,14 @@ public sealed class XAFContaAppModule : ModuleBase {
         //
         RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.SystemModule.SystemModule));
         RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Validation.ValidationModule));
+        RequiredModuleTypes.Add(typeof(ReportsModuleV2));
     }
     public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
         ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
         PredefinedReportsUpdater predefinedReportsUpdater =
             new PredefinedReportsUpdater(Application, objectSpace, versionFromDB);
-        predefinedReportsUpdater.AddPredefinedReport<Test>("Test Report", typeof(Partner));
-        predefinedReportsUpdater.AddPredefinedReport<Test2>("Entries Total");
+        predefinedReportsUpdater.AddPredefinedReport<EntriesReport>("Entries Total Report", typeof(Gestion));
+        predefinedReportsUpdater.AddPredefinedReport<ExitsReport>("Exits Total Report", typeof(Gestion));
 
         return new ModuleUpdater[] { updater, predefinedReportsUpdater};
     }

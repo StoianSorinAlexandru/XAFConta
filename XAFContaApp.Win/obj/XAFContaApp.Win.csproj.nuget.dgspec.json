@@ -209,6 +209,18 @@
               "target": "Package",
               "version": "[24.2.3, )"
             },
+            "DevExpress.ExpressApp.ReportsV2": {
+              "target": "Package",
+              "version": "[24.2.3, )"
+            },
+            "DevExpress.ExpressApp.ReportsV2.Blazor": {
+              "target": "Package",
+              "version": "[24.2.3, )"
+            },
+            "DevExpress.ExpressApp.ReportsV2.Win": {
+              "target": "Package",
+              "version": "[24.2.3, )"
+            },
             "DevExpress.ExpressApp.Validation.Win": {
               "target": "Package",
               "version": "[24.2.3, )"

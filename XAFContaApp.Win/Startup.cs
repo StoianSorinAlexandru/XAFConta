@@ -23,6 +23,11 @@ public class ApplicationBuilder : IDesignTimeApplicationFactory {
 
         builder.UseApplication<XAFContaAppWindowsFormsApplication>();
         builder.Modules
+            .AddReports(options => {
+                options.EnableInplaceReports = true;
+                options.ReportDataType = typeof(DevExpress.Persistent.BaseImpl.EF.ReportDataV2);
+                options.ReportStoreMode = DevExpress.ExpressApp.ReportsV2.ReportStoreModes.XML;
+            })
             .AddValidation(options => {
                 options.AllowValidationDetailsAccess = false;
             })

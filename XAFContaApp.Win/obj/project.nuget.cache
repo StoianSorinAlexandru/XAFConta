@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l31n8St0KaA=",
+  "dgSpecHash": "XOT8PDd7z+I=",
   "success": true,
   "projectFilePath": "E:\\testC#\\XAFContaApp\\XAFContaApp.Win\\XAFContaApp.Win.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.efcore\\24.2.3\\devexpress.expressapp.efcore.24.2.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.reportsv2\\24.2.3\\devexpress.expressapp.reportsv2.24.2.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.reportsv2.blazor\\24.2.3\\devexpress.expressapp.reportsv2.blazor.24.2.3.nupkg.sha512",
+    "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.reportsv2.win\\24.2.3\\devexpress.expressapp.reportsv2.win.24.2.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.security\\24.2.3\\devexpress.expressapp.security.24.2.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.security.aspnetcore\\24.2.3\\devexpress.expressapp.security.aspnetcore.24.2.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages\\devexpress.expressapp.validation\\24.2.3\\devexpress.expressapp.validation.24.2.3.nupkg.sha512",
@@ -118,6 +119,7 @@
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.1\\microsoft.extensions.configuration.9.0.1.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.1\\microsoft.extensions.configuration.fileextensions.9.0.1.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.1\\microsoft.extensions.configuration.json.9.0.1.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
@@ -132,6 +134,7 @@
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.10\\microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.identity.client\\4.66.2\\microsoft.identity.client.4.66.2.nupkg.sha512",
     "C:\\Users\\stoia\\.nuget\\packages\\microsoft.identity.client.broker\\4.66.2\\microsoft.identity.client.broker.4.66.2.nupkg.sha512",

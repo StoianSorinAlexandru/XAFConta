@@ -29,7 +29,7 @@ public class XAFContaAppDesignTimeDbContextFactory : IDesignTimeDbContextFactory
         //optionsBuilder.UseObjectSpaceLinkProxies();
         //return new XAFContaAppEFCoreDbContext(optionsBuilder.Options);
         var optionsBuilder = new DbContextOptionsBuilder<XAFContaAppEFCoreDbContext>();
-        optionsBuilder.UseSqlServer("Data Source=DESKTOP-VRT8UFH;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+        optionsBuilder.UseSqlServer("Data Source=DESKTOP-VRT8UFH;Initial Catalog=mini_project_database;Integrated Security=True;Encrypt=False");
         
         optionsBuilder.UseChangeTrackingProxies();
         optionsBuilder.UseObjectSpaceLinkProxies();

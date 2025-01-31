@@ -1,6 +1,7 @@
 ﻿using DevExpress.ExpressApp.ApplicationBuilder;
 using DevExpress.ExpressApp.Blazor.ApplicationBuilder;
 using DevExpress.ExpressApp.Blazor.Services;
+using DevExpress.ExpressApp.ReportsV2.Blazor;
 using DevExpress.Persistent.Base;
 using DevExpress.XtraRichEdit.Import;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -64,6 +65,7 @@ public class Startup {
                     })
                 .AddNonPersistent();
         });
+        services.AddXafReporting();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

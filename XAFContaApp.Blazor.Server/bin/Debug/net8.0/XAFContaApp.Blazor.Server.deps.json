@@ -11,6 +11,8 @@
           "DevExpress.Drawing.Skia": "24.2.3",
           "DevExpress.ExpressApp.Blazor": "24.2.3",
           "DevExpress.ExpressApp.CodeAnalysis": "24.2.3",
+          "DevExpress.ExpressApp.ReportsV2": "24.2.3",
+          "DevExpress.ExpressApp.ReportsV2.Blazor": "24.2.3",
           "DevExpress.ExpressApp.Validation.Blazor": "24.2.3",
           "XAFContaApp.Module": "1.0.0"
         },

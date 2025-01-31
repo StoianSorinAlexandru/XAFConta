@@ -4,9 +4,8 @@ E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.run
 E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.dll
 E:\testC#\XAFContaApp\XAFContaApp.Module\bin\Debug\net8.0\XAFContaApp.Module.pdb
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.csproj.AssemblyReference.cache
-E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.DetailEntries.resources
-E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.Entries.resources
-E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.Test.resources
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.EntriesReport.resources
+E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.ExitsReport.resources
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.csproj.GenerateResource.cache
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.GeneratedMSBuildEditorConfig.editorconfig
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.AssemblyInfoInputs.cache
@@ -18,5 +17,3 @@ E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\refint\XAFContaApp.Mod
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.pdb
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.genruntimeconfig.cache
 E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\ref\XAFContaApp.Module.dll
-E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.EntriesReportTotal.resources
-E:\testC#\XAFContaApp\XAFContaApp.Module\obj\Debug\net8.0\XAFContaApp.Module.Reports.Test2.resources

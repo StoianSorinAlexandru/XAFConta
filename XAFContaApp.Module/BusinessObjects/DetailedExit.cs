@@ -50,7 +50,7 @@ namespace XAFContaApp.Module.BusinessObjects
                 var totalOut = exitList.Sum(e => e.DetailedExitList.Where(de => de.Product == Product).Sum(de => de.Quantity));
                 if (totalOut + Quantity > totalIn)
                 {
-                    throw new UserFriendlyException("The quantity of the product in the exit cannot be greater than the quantity of the product in the entries.");
+                    //throw new UserFriendlyException("The quantity of the product in the exit cannot be greater than the quantity of the product in the entries.");
                 }
             }
         }

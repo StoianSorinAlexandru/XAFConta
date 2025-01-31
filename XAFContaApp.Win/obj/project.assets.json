@@ -700,6 +700,39 @@
           }
         }
       },
+      "DevExpress.ExpressApp.ReportsV2.Win/24.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[24.2.3]",
+          "DevExpress.DataAccess": "[24.2.3]",
+          "DevExpress.DataAccess.UI": "[24.2.3]",
+          "DevExpress.ExpressApp": "[24.2.3]",
+          "DevExpress.ExpressApp.ReportsV2": "[24.2.3]",
+          "DevExpress.ExpressApp.Win": "[24.2.3]",
+          "DevExpress.Persistent.Base": "[24.2.3]",
+          "DevExpress.Printing.Core": "[24.2.3]",
+          "DevExpress.Reporting.Core": "[24.2.3]",
+          "DevExpress.Utils": "[24.2.3]",
+          "DevExpress.Utils.UI": "[24.2.3]",
+          "DevExpress.Win.Grid": "[24.2.3]",
+          "DevExpress.Win.Navigation": "[24.2.3]",
+          "DevExpress.Win.Printing": "[24.2.3]",
+          "DevExpress.Win.Reporting": "[24.2.3]",
+          "DevExpress.Win.TreeList": "[24.2.3]",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows/DevExpress.ExpressApp.ReportsV2.Win.v24.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows/DevExpress.ExpressApp.ReportsV2.Win.v24.2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DevExpress.ExpressApp.Security/24.2.3": {
         "type": "package",
         "dependencies": {
@@ -2597,6 +2630,25 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.FileExtensions/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -2864,6 +2916,29 @@
         },
         "build": {
           "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Primitives/9.0.1": {
@@ -4960,6 +5035,21 @@
         "lib/net8.0/DevExpress.ExpressApp.ReportsV2.Blazor.v24.2.xml"
       ]
     },
+    "DevExpress.ExpressApp.ReportsV2.Win/24.2.3": {
+      "sha512": "FRgHq4sYSGEKwbwur4sfpqmB/OnPE4PNeSXWj8JJz3XQZSYABcqTZqDXYGoK0auYzUQ7cl9MK6uen8rTR7imAA==",
+      "type": "package",
+      "path": "devexpress.expressapp.reportsv2.win/24.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.reportsv2.win.24.2.3.nupkg.sha512",
+        "devexpress.expressapp.reportsv2.win.nuspec",
+        "lib/net462/DevExpress.ExpressApp.ReportsV2.Win.v24.2.dll",
+        "lib/net462/DevExpress.ExpressApp.ReportsV2.Win.v24.2.xml",
+        "lib/net8.0-windows/DevExpress.ExpressApp.ReportsV2.Win.v24.2.dll",
+        "lib/net8.0-windows/DevExpress.ExpressApp.ReportsV2.Win.v24.2.xml"
+      ]
+    },
     "DevExpress.ExpressApp.Security/24.2.3": {
       "sha512": "YUX5fduGpauEnq4wKF6knIIwIxIOr69O1UCdnyhNNtn1pD+pzNY7YjkfgHLVYMciwXhVyO4zg3JF1d1jMHwuvw==",
       "type": "package",
@@ -6549,6 +6639,47 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "sha512": "mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Configuration.FileExtensions/9.0.1": {
       "sha512": "QBOI8YVAyKqeshYOyxSe6co22oag431vxMu5xQe1EjXMkYE4xK4J71xLCW3/bWKmr9Aoy1VqGUARSLFnotk4Bg==",
       "type": "package",
@@ -7014,6 +7145,36 @@
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
         "microsoft.extensions.options.8.0.2.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "sha512": "0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -8834,6 +8995,9 @@
       "DevExpress.ExpressApp >= 24.2.3",
       "DevExpress.ExpressApp.CodeAnalysis >= 24.2.3",
       "DevExpress.ExpressApp.EFCore >= 24.2.3",
+      "DevExpress.ExpressApp.ReportsV2 >= 24.2.3",
+      "DevExpress.ExpressApp.ReportsV2.Blazor >= 24.2.3",
+      "DevExpress.ExpressApp.ReportsV2.Win >= 24.2.3",
       "DevExpress.ExpressApp.Validation.Win >= 24.2.3",
       "DevExpress.ExpressApp.Win >= 24.2.3",
       "DevExpress.ExpressApp.Win.Design >= 24.2.3",
@@ -8911,6 +9075,18 @@
             "version": "[24.2.3, )"
           },
           "DevExpress.ExpressApp.EFCore": {
+            "target": "Package",
+            "version": "[24.2.3, )"
+          },
+          "DevExpress.ExpressApp.ReportsV2": {
+            "target": "Package",
+            "version": "[24.2.3, )"
+          },
+          "DevExpress.ExpressApp.ReportsV2.Blazor": {
+            "target": "Package",
+            "version": "[24.2.3, )"
+          },
+          "DevExpress.ExpressApp.ReportsV2.Win": {
             "target": "Package",
             "version": "[24.2.3, )"
           },

@@ -305,3 +305,6 @@ E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\refint\XAFContaAp
 E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\XAFContaApp.Win.pdb
 E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\XAFContaApp.Win.genruntimeconfig.cache
 E:\testC#\XAFContaApp\XAFContaApp.Win\obj\Debug\net8.0-windows\ref\XAFContaApp.Win.dll
+E:\testC#\XAFContaApp\XAFContaApp.Win\bin\Debug\net8.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v24.2.dll
+E:\testC#\XAFContaApp\XAFContaApp.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+E:\testC#\XAFContaApp\XAFContaApp.Win\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
